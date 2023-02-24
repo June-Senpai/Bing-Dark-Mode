@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Bing Dark Mode",
+    "description": "For making bing dark",
+    "version": "1.0.0",
+    "icons": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    },
+
+    
+    
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.bing.com/*"
+          ],
+          "css": ["main.css"]         
+        }
+    ]
+    
+  }
+  
